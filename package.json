@@ -1,0 +1,17 @@
+{
+  "name": "hyun-mo.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Hyun-mo/hyun-mo.github.io.git",
+  "author": "Hyunmo <hyunmo0417@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "test": "nodemon --watch / /main.js"
+  }
+}

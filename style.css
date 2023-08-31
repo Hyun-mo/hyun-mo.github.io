@@ -1,0 +1,41 @@
+span {
+  user-select: none;
+}
+
+#header {
+  font-size: 24px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.navigation {
+  font-family: "Oswald";
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.navigation > span {
+  opacity: 0.2;
+  padding-inline: 24px;
+}
+.navigation > .selected {
+  opacity: 1;
+}
+@media (max-width: 1024px) {
+  .navigation > span {
+    display: none;
+  }
+}
+.navigation > .logo {
+  font-size: 24px;
+  font-family: "Lato";
+  line-height: 30px;
+  color: #1d1f24;
+  padding: 20px;
+  opacity: 1;
+  padding-right: 50px;
+  display: block;
+}
