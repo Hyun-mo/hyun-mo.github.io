@@ -1,10 +1,6 @@
-var windowWidth = window.matchMedia("screen and (max-width: 768px)");
+var windowWidth = window.matchMedia("screen and (min-width: 1024px)");
 
 if (windowWidth.matches) {
-  //screen and (max-width: 768px)에 해당한다.
-  console.log("모바일 사이즈 입니다.");
-} else {
-  //screen and (max-width: 768px)에 해당하지 않는다.
-  console.log("모바일 사이즈가 아닙니다.");
+  //desktop size
+  const navi = document.getElementsByClassName("navigation");
 }
-console.log("asdasd");
